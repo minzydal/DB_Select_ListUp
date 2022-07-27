@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="10dp"
+                android:src="@drawable/backbutton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_toRightOf="@+id/backBtn"
+                android:background="@drawable/gds_smart" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/selectText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#E7DECA"
+            android:gravity="center"
+            android:text="차종선택"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/fragmentLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/topLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F7EEE1"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/search_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="150dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/edittext_background"
+                    android:completionThreshold="1"
+                    android:hint=" 차량 모델 번호를 입력하십시오."
+                    android:padding="10dp"
+                    android:textSize="18dp" />
+
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp">
+
+                <ImageButton
+                    android:id="@+id/searchBtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/find" />
+
+                <ImageButton
+                    android:id="@+id/selectModelBtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/searchBtn"
+                    android:background="@drawable/car" />
+
+                <ImageButton
+                    android:id="@+id/scanBtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/selectModelBtn"
+                    android:background="@drawable/scan" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/topLayout"
+                android:layout_marginTop="15dp">
+
+                <Button
+                    android:id="@+id/area"
+                    android:layout_width="240dp"
+                    android:layout_height="70dp"
+                    android:background="#2F385E"
+                    android:text="지역"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/model"
+                    android:layout_width="240dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/area"
+                    android:layout_marginTop="10dp"
+                    android:background="#DEDEDE"
+                    android:text="차종"
+                    android:textColor="#898888"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/modelYear"
+                    android:layout_width="240dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/model"
+                    android:layout_marginTop="10dp"
+                    android:background="#DEDEDE"
+                    android:text="연식"
+                    android:textColor="#898888"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/engine"
+                    android:layout_width="240dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@id/modelYear"
+                    android:layout_marginTop="10dp"
+                    android:background="#DEDEDE"
+                    android:text="엔진 타입"
+                    android:textColor="#898888"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:id="@+id/fragmentLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="200dp"
+                    android:layout_toRightOf="@+id/area"
+                    android:background="@drawable/border_line"
+                    android:orientation="horizontal"
+                    android:padding="1dp" />
+
+                <Button
+                    android:id="@+id/confirmButton"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="100dp"
+                    android:background="#C5C5C5"
+                    android:text="확인"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

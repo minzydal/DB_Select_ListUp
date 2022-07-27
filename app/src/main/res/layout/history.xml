@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/event_border_line"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="History"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/historyRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/history"
+                android:layout_gravity="center_horizontal" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="9.3">
+
+        <TextView
+            android:id="@+id/selectButton"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:background="@drawable/event_border_line" />
+
+        <TextView
+            android:id="@+id/machine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="@drawable/event_border_line"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="No"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/eventtxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.5"
+            android:background="@drawable/event_border_line"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Event"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/typetxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2"
+            android:background="@drawable/event_border_line"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Type"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/statustxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:background="@drawable/event_border_line"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="Status"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tsbtxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:background="@drawable/event_border_line"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="MM"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/allEventRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

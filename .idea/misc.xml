@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable-v24/background_shadow.xml" value="0.32395833333333335" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable-v24/border_line.xml" value="0.2177319673255829" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable-v24/edittext_background.xml" value="0.24296875" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable/button_line.xml" value="0.20078125" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable/event_border_line.xml" value="0.24296875" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/drawable/notselectedline.xml" value="0.1" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/font/font.xml" value="0.34479166666666666" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/activity_main.xml" value="0.2177319673255829" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/all.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/areaitem.xml" value="0.24742269014270782" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/arealayout.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/engineitem.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/enginelayout.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/eventlistitem.xml" value="0.2177319673255829" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/eventlistup.xml" value="0.24742269014270782" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/history.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/modelitem.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/modellayout.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/modelyearitem.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/modelyearlayout.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/popuplayout.xml" value="0.32659795098837435" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/related.xml" value="0.19793815211416627" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/selectedlist.xml" value="0.1328125" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/selectedlistitem.xml" value="0.1328125" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/selection_layout.xml" value="0.2177319673255829" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/selectionlayout.xml" value="0.206640625" />
+        <entry key="..\:/ECUUpgrade/app/src/main/res/layout/upgrademode.xml" value="0.14845361408562469" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/activity_main.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/all.xml" value="0.19793815211416627" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/areaitem.xml" value="0.23046875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/arealayout.xml" value="0.23046875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/engineitem.xml" value="0.11796875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/enginelayout.xml" value="0.23046875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/eventlistitem.xml" value="0.24742269014270782" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/history.xml" value="0.23046875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/modelitem.xml" value="0.11796875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/modelyearlayout.xml" value="0.23046875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/popuplayout.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/related.xml" value="0.19793815211416627" />
+        <entry key="..\:/ECUUpgrade_0423/app/src/main/res/layout/upgrademode.xml" value="0.11796875" />
+        <entry key="..\:/ECUUpgrade_0427/app/src/main/res/drawable/custom_progresbar.xml" value="0.2465" />
+        <entry key="..\:/ECUUpgrade_0427/app/src/main/res/layout/activity_main.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade_0427/app/src/main/res/layout/transmittinglayout.xml" value="0.1" />
+        <entry key="..\:/ECUUpgrade_0427/app/src/main/res/layout/upgrademode.xml" value="0.22421875" />
+        <entry key="..\:/ECUUpgrade_0503/app/src/main/res/layout/activity_main.xml" value="0.16824742929704134" />
+        <entry key="..\:/ECUUpgrade_0503/app/src/main/res/layout/transmittinglayout.xml" value="0.1078125" />
+        <entry key="..\:/ECUUpgrade_0503/app/src/main/res/layout/upgrademode.xml" value="0.1078125" />
+        <entry key="..\:/Users/I5-3570/Desktop/MINZY/ECUUpgrade_0422/app/src/main/res/layout/eventlistitem.xml" value="0.274609375" />
+        <entry key="..\:/Users/I5-3570/Desktop/MINZY/ECUUpgrade_0422/app/src/main/res/layout/popuplayout.xml" value="0.1859375" />
+        <entry key="..\:/Users/I5-3570/Desktop/MINZY/ECUUpgrade_0422/app/src/main/res/layout/upgrademode.xml" value="0.1859375" />
+        <entry key="app/src/main/res/drawable-v24/border_line.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable-v24/edittext_background.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/button_line.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/custom_progresbar.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/event_border_line.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.236" />
+        <entry key="app/src/main/res/drawable/notselectedline.xml" value="0.236" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16983398437500002" />
+        <entry key="app/src/main/res/layout/all.xml" value="0.2156008785239062" />
+        <entry key="app/src/main/res/layout/areaitem.xml" value="0.30972906403940886" />
+        <entry key="app/src/main/res/layout/arealayout.xml" value="0.30972906403940886" />
+        <entry key="app/src/main/res/layout/engineitem.xml" value="0.30972906403940886" />
+        <entry key="app/src/main/res/layout/enginelayout.xml" value="0.17421875" />
+        <entry key="app/src/main/res/layout/eventlistitem.xml" value="0.4913848876953125" />
+        <entry key="app/src/main/res/layout/history.xml" value="0.16717980295566504" />
+        <entry key="app/src/main/res/layout/modelitem.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/modellayout.xml" value="0.16717980295566504" />
+        <entry key="app/src/main/res/layout/modelyearitem.xml" value="0.5079849243164063" />
+        <entry key="app/src/main/res/layout/modelyearlayout.xml" value="0.16717980295566504" />
+        <entry key="app/src/main/res/layout/popuplayout.xml" value="0.5785384455337901" />
+        <entry key="app/src/main/res/layout/related.xml" value="0.16717980295566504" />
+        <entry key="app/src/main/res/layout/selectedlistitem.xml" value="0.5067764282226563" />
+        <entry key="app/src/main/res/layout/transmittinglayout.xml" value="0.19228210449218755" />
+        <entry key="app/src/main/res/layout/upgrademode.xml" value="0.2812408447265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
